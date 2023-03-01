@@ -1,0 +1,39 @@
+echo "hello" #print value
+x=123       #assign variable
+echo $x      #call variable
+touch myfile.txt        # create empty filee
+ls -lah     # list fieles and dirs with metadata
+ls -lh | grep myfile.sh        # metadata for specific file
+chmod +x myfile.sh      #setting executable permissions to file
+lsb_release -a     #to get description of O.S
+sudo apt get update     # update directories
+apt get install django      #install packages
+nohup python3 manage.py runserver 0.0.0.0:8001 &       #nohup -command to run command in background
+lsof -i:8001      #lsof -i:port no, returns the services runnig on port
+ps  # returns proceses in current session
+kill -9 2364         #kill -9 PID , to stop service on port by PID
+alias cl 'clear'    #to define temprory aliases
+pwd # to get working directory
+cp  dir1/file1.txt dir2/file1.txt #copy files from source file to destination file
+rm  file1   #remove filesr
+rm -r dir1         #remove entire directory
+mv file1.txt dir2/   # to move file to another directory
+man mkdir  #man too see the manual of any command
+unzip images.zip #  unpacking a .zip file
+cat File.txt   #to create, view, and concatenate files
+vim file.tx #create and open file.txt in text editor
+ping google.com  # networking terminal utility used to test network connectivity.
+history # returns all commands hit on your terminal
+which python # returns the full path of packages installed
+grep "linux" myfile.txt # to match a regular expression and print them e.g try to match linux in myfile.txt
+grep -c "linux" myfile.txt #returns no of  count
+wc long.txt # returns the number of words in a text file
+wget https://github.com/aniket0898/file # wget is a utility to get contetnt from internet
+htop	#Displays processes and resources information
+
+System variables always in capital letters SHELL, HOME, HOSTNAME, PWD
+echo $SHELL     # returns path of shell location by calling variable SHELL,
+echo $HOSTNAME  # returns HOTANAME
+echo $PWD       #returns current working directory
+echo $HOME      #returns current home directory
+echo $USER    # returns user

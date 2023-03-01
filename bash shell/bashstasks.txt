@@ -1,0 +1,26 @@
+1. In the bash script write a program That creates a file named dockerfile . The contents of the dockerfile should have the following commands: 
+First the base image should install python3 via from command then the rest of the following should contain the following: 
+
+RUN pip install {{MODULES}} 
+CMD ["python", {{FILENAME}}] 
+
+{{MODULES}} SHOULD be replaced with the modules : numpy, Scipy, and pandas all on the line. 
+{{FILENAME}} should be replaced with ./main.py Then your bash script should print the SHA1 has of the contents of Dockerfile
+
+Code: Refer script2.sh
+
+**********************************************************
+
+2. In the bash script write a program That calculates the total disk size and total memory that exists on the machine the output of your 
+program should match exactly what is below (with the dashed lines in the output): 
+--- 
+Total disk : {VALUE}G 
+Total memory : {VALUE}MB 
+---
+
+Code: Refer script3.sh
+
+**********************************************************
+
+3. In the bash script write a simple program that creates new file called myfile.txt then append the string "hello world" to it then print 
+out the file size in bytes of myfile.txt
